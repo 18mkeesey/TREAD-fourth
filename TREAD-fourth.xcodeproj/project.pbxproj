@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56A5247B272618BD0026705B /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A5247A272618BD0026705B /* ContactDetailViewController.swift */; };
+		56A5247D272618F60026705B /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A5247C272618F60026705B /* ContactListViewController.swift */; };
 		56B422832721FC9A00746D10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B422822721FC9A00746D10 /* AppDelegate.swift */; };
 		56B422852721FC9A00746D10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B422842721FC9A00746D10 /* SceneDelegate.swift */; };
 		56B422872721FC9A00746D10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B422862721FC9A00746D10 /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56A5247A272618BD0026705B /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
+		56A5247C272618F60026705B /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
 		56B4227F2721FC9A00746D10 /* TREAD-fourth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TREAD-fourth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B422822721FC9A00746D10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56B422842721FC9A00746D10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				56B4228B2721FCA900746D10 /* Assets.xcassets */,
 				56B4228D2721FCA900746D10 /* LaunchScreen.storyboard */,
 				56B422902721FCA900746D10 /* Info.plist */,
+				56A5247A272618BD0026705B /* ContactDetailViewController.swift */,
+				56A5247C272618F60026705B /* ContactListViewController.swift */,
 			);
 			path = "TREAD-fourth";
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				56B422872721FC9A00746D10 /* ViewController.swift in Sources */,
+				56A5247D272618F60026705B /* ContactListViewController.swift in Sources */,
 				56B422832721FC9A00746D10 /* AppDelegate.swift in Sources */,
+				56A5247B272618BD0026705B /* ContactDetailViewController.swift in Sources */,
 				56B422852721FC9A00746D10 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
